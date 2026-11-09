@@ -1,0 +1,16 @@
+# Archivos de Office y de trabajo que no son parte del sitio
+~$*
+*.docx
+
+# Configuración local
+.claude/
+.vercel/
+
+# Salidas temporales de Impeccable (el brief de .impeccable/surfaces sí se conserva)
+.impeccable/questions/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/
+
+# Originales: incluyen capturas con nombres y fotos de clientes. No van en el repositorio público.
+IMG/
