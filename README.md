@@ -2,6 +2,12 @@
 
 Sitio estático (HTML/CSS/JS). Abrir con cualquier servidor estático, por ejemplo `python -m http.server 5173` en esta carpeta.
 
+## Despliegue
+- En línea: https://transmisiones-los-angeles.vercel.app (proyecto `transmisiones-los-angeles` en Vercel, equipo IngVilleda).
+- Cada `git push` a `main` publica a producción. `.vercelignore` define qué no se publica; `vercel.json`, las cabeceras.
+- `IMG/` queda solo en local porque el repositorio es público y esa carpeta trae capturas con datos de clientes.
+- Sigue con `noindex` hasta tener dominio definitivo.
+
 ## Editar
 - Número de WhatsApp, horario, lista de servicios, Instagram, enlace de Maps: `site-config.js`.
 - Textos y reseñas: `index.html`. Estilos y tokens: `styles.css` (variables en `:root`).
